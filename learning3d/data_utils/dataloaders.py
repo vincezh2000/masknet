@@ -93,7 +93,7 @@ class ModelNet40Data(Dataset):
 		self,
 		train=True,
 		num_points=1024,
-		download=True,
+		download=False,
 		randomize_data=False,
 		unseen=False,
 		use_normals=False
